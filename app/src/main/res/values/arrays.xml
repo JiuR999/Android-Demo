@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="music_url_list">
+        <item>https://lw-sycdn.kuwo.cn/4fcc851d70fac39cba42ba16f3efb85c/6614dd8e/resource/30106/trackmedia/M500002zhimP3BAt7G.mp3</item>
+        <item>https://ra-sycdn.kuwo.cn/e3937649337f4d0864faa59691e505ba/6614b110/resource/n3/128/40/70/356596524.mp3</item>
+        <item>https://sy-sycdn.kuwo.cn/d1831180ea87105c596bda80f7e5b9c0/6614b5cd/resource/n2/70/55/756351052.mp3</item>
+        <item>https://lv-sycdn.kuwo.cn/22946d399a0899c2f1ee6dcd10a349a3/6614b1f1/resource/30106/trackmedia/M500003XAfN21gC0UX.mp3</item>
+
+        <item>https://ra-sycdn.kuwo.cn/51dfaa3e450440b5304fb31737b605c1/6614c60e/resource/n1/128/52/22/686118637.mp3</item>
+    </string-array>
+
+    <string-array name="music_name_list">
+        <item>达尔文</item>
+        <item>稻香</item>
+        <item>晴天</item>
+        <item>花海</item>
+        <item>红豆</item>
+    </string-array>
+
+    <string-array name="music_singer_list">
+        <item>蔡健雅</item>
+        <item>周杰伦</item>
+        <item>周杰伦</item>
+        <item>周杰伦</item>
+        <item>王菲</item>
+    </string-array>
+
+    <string-array name="news">
+        <item>generalnews</item>
+        <item>guonei</item>
+        <item>social</item>
+        <item>it</item>
+        <item>huabian</item>
+        <item>dongman</item>
+    </string-array>
+</resources>

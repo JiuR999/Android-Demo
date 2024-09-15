@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/message"
+        android:title="@string/title_message" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/twotone_music_note_24"
+        android:title="@string/title_music" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/found"
+        android:title="@string/title_found" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/twotone_newspaper_24"
+        android:title="@string/title_news" />
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/mine"
+        android:title="@string/title_mine" />
+
+</menu>

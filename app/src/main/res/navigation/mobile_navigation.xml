@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="cn.swust.ui.home.HomeFragment"
+        android:label="微信"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="cn.swust.ui.music.MusicFragment"
+        android:label="通讯录"
+        tools:layout="@layout/fragment_found" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+
+        android:name="cn.swust.ui.found.FoundFragment"
+        android:label="发现"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="cn.swust.ui.mine.MineFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_mine" />
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="cn.swust.ui.news.NewsFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_news_item"
+        android:name="cn.swust.ui.news.NewsItemFragment"
+        tools:layout="@layout/fragment_news_item">
+        <action
+            android:id="@+id/action_navigation_news_item_to_navigation_news_detail"
+            app:destination="@id/navigation_news_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_news_detail"
+        android:name="cn.swust.ui.news.NewsDatailFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_news_datail" />
+</navigation>

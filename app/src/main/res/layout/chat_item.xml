@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/img_avator"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/mine"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIUR"
+        android:textStyle="bold"
+        android:textSize="@dimen/title"
+        android:layout_marginStart="@dimen/item_margin"
+        android:layout_toEndOf="@id/img_avator"/>
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_margin"
+        android:layout_toEndOf="@id/img_avator"
+        android:text="@string/title_mine"
+        android:textSize="@dimen/content"
+        android:layout_below="@id/tv_name" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_mine"
+        android:textSize="@dimen/content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginStart="64dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

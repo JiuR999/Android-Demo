@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <size android:width="48dp"
+            android:height="48dp"/>
+        <solid android:color="?attr/colorPrimaryInverse"/>
+        <corners android:radius="@dimen/item_margin"/>
+    </shape>
+</item>
+    <item android:width="36dp"
+        android:height="36dp"
+        android:gravity="center"
+        android:drawable="@drawable/twotone_queue_music_24"/>
+</layer-list>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BottomApplication</string>
+    <string name="title_message">消息</string>
+    <string name="title_address_book">通讯录</string>
+    <string name="title_found">发现</string>
+    <string name="title_mine">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_music">音乐\n</string>
+    <string name="title_news">新闻\n</string>
+
+    <string-array name="funtions">
+        <item>朋友圈</item>
+        <item>扫一扫</item>
+        <item>摇一摇</item>
+        <item>看一看</item>
+        <item>附近的人</item>
+        <item>漂流瓶</item>
+        <item>购物</item>
+        <item>游戏</item>
+        <item>小程序</item>
+    </string-array>
+
+    <item name="baseUrl" type="string">https://apis.tianapi.com/</item>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="img_function">
+        <item name="android:layout_width">@dimen/midum_icon</item>
+        <item name="android:layout_height">@dimen/midum_icon</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="Round_Image">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="text_h1">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_h2">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_h3_style">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
